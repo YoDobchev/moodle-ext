@@ -1,15 +1,14 @@
 {
-    "manifest_version": 3,
-    "name": "moodle+",
-    "version": "1.0",
-    "description": "",
-    "permissions": ["scripting"],
-    "host_permissions": ["https://learn.fmi.uni-sofia.bg/*"],
-    "content_scripts": [
-      {
-        "matches": ["https://learn.fmi.uni-sofia.bg/*"],
-        "js": ["content.js"]
-      }
-    ]
-  }
-  
+  "manifest_version": 3,
+  "name": "moodle+",
+  "version": "1.0",
+  "description": "opravq mi jivota",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://learn.fmi.uni-sofia.bg/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://learn.fmi.uni-sofia.bg/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
