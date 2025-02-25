@@ -4,10 +4,10 @@
   "version": "1.0",
   "description": "opravq mi jivota",
   "permissions": ["scripting"],
-  "host_permissions": ["https://learn.fmi.uni-sofia.bg/*"],
+  "host_permissions": ["https://learn.fmi.uni-sofia.bg/*", "https://elearn.uni-sofia.bg/*"],
   "content_scripts": [
     {
-      "matches": ["https://learn.fmi.uni-sofia.bg/*"],
+      "matches": ["https://learn.fmi.uni-sofia.bg/*", "https://elearn.uni-sofia.bg/*"],
       "js": ["content.js"]
     }
   ]
